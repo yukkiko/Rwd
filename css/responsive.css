@@ -1,0 +1,46 @@
+@media all and (min-width:1170px){
+    .tlo{
+        background-image: url(obrazy/man-1.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+    }
+    .tlo h1{
+        color: white;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+    }
+}
+@media all and (max-width:1170px){
+    .tlo{
+        background-image: url(obrazy/man-2.jpg);
+        background-size: cover;
+        height: 70vh;
+        background-position: center;
+        position: relative;
+    }
+    .tlo h1{
+        color: white;
+        position: absolute;
+        top: 0;
+        right: 0;
+        
+    }
+}
+@media all and (max-width:992px){
+    .tlo{
+        background-image: url(obrazy/man-1.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 50vh;
+        text-align: center;
+    }
+    .tlo h1 {
+        color: black;
+        top: 100%;
+        left: 0;
+    }
+}
